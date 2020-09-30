@@ -1,0 +1,64 @@
+body {
+        background-color: #95c2de;
+    }
+  
+    #mainbox {
+        background-color: #95c2de;
+        margin: auto;
+        height: 600px;
+        width: 600px;
+        position: relative;
+  }
+  
+    .err {
+        color: #ffffff;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11rem;
+        position:absolute;
+        left: 20%;
+        top: 8%;
+    }
+  
+    .err2 {
+        color: #ffffff;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11rem;
+        position:absolute;
+        left: 43.5%;
+        top: 8%;
+        animation: 2s infinite alternate tourne;
+    }
+
+    @keyframes tourne{
+        0%{}
+        50%{transform: rotateZ(360deg);}
+        100%{transform: translateX(25px);}
+    }
+  
+    .err3 {
+        color: #ffffff;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11rem;
+        position:absolute;
+        left: 68%;
+        top: 8%;
+    }
+  
+    .message {
+        text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 1.3rem;
+        position:absolute;
+        left: 16%;
+        top: 45%;
+        width: 75%;
+    }
+  
+    a {
+        text-decoration: none;
+        color: white;
+    }
+  
+    a:hover {
+        text-decoration: underline;
+    }
